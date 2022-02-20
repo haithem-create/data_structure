@@ -1,0 +1,56 @@
+          distict_Element {
+
+                  trouver_elts ( set1[]: entier, set2[]:entier)
+                  {
+   			sum_elti = 0
+   			for(i=0; i<set1.length; i++)
+    			 {
+     			   for(j=0;j<set2.length; j++)
+      			    {
+       			     if(set1[i] != set2[j])
+       			     {sumelti += set[i];}
+			    }
+      		             return sumelti;
+      			  }
+
+                       for(j=0;j<set2.length; j++)
+                       {
+                        for(i=0;i<set1.length; i++)
+                        {
+                         if(set2[j] != set1[i])
+                         {sumeltj += set[j];}
+                        }
+                        return sumeltj;
+                       }
+                  sum = sumelti + sumeltj;
+                 }
+
+
+
+
+
+
+ALGORITHM hash
+VAR
+   // declaring hash table
+   htab_set1 : HASH_TABLE<INTEGER,INTEGER>;
+   htab_set2 : HASH_TABLE<INTEGER,INTEGER>;
+   // HASH_TABLE<Key_type,Value_type>
+  
+BEGIN
+   htab_set1 : HASH_TABLE<INTEGER,INTEGER>;
+   htab.insert(0,12);
+   htab.insert(1,13);
+   htab.insert(2,6);
+   htab.insert(3,10);
+   Write(htab_1);
+
+   htab_set2 : HASH_TABLE<INTEGER,INTEGER>;
+   htab.insert(0,13);
+   htab.insert(1,10);
+   htab.insert(2,16);
+   htab.insert(3,15);
+   Write(htab_2); 
+
+
+END
